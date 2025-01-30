@@ -19,10 +19,6 @@
         <option value="$PROJECT_DIR$/event-service/pom.xml" />
         <option value="$PROJECT_DIR$/ReportService/pom.xml" />
         <option value="$PROJECT_DIR$/task-service/pom.xml" />
-        <option value="$PROJECT_DIR$/api-gateway-server/pom.xml" />
-        <option value="$PROJECT_DIR$/BudgetManagement/pom.xml" />
-        <option value="$PROJECT_DIR$/ClientService/pom.xml" />
-        <option value="$PROJECT_DIR$/eureka-server/pom.xml" />
         <option value="$PROJECT_DIR$/security-service/pom.xml" />
         <option value="$PROJECT_DIR$/feedback-service/pom.xml" />
         <option value="$PROJECT_DIR$/user-service/pom.xml" />
