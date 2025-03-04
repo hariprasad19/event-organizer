@@ -11,4 +11,5 @@ public interface GuestRepository extends JpaRepository<Guest,Long>
 //    public Optional<Guest> findGuestByEventId(Long eventId);
 //    public List<Guest> findByEventId(Long eventId);
 //    public List<Guest> findByDietaryPreference(String dietaryPreference);
+
 }
