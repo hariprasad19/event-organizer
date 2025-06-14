@@ -8,10 +8,10 @@
 		<version>3.3.5</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.taskService</groupId>
+	<groupId>com.eventorganizer</groupId>
 	<artifactId>eventorg-task-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>task-service</name>
+	<name>eventorg-task-service</name>
 	<description>Task Service</description>
 	<url/>
 	<licenses>

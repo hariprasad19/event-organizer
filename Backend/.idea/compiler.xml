@@ -7,20 +7,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="vendor-service" />
-        <module name="ClientService" />
-        <module name="event-service" />
-        <module name="task-service" />
-        <module name="guest-service" />
-        <module name="user-service" />
-        <module name="feedback-service" />
-        <module name="api-gateway-server" />
-        <module name="eureka-server" />
+        <module name="eventorg-task-service" />
+        <module name="eventorg-eureka-service" />
+        <module name="eventorg-guest-service" />
+        <module name="eventorg-user-service" />
+        <module name="eventorg-vendor-service" />
+        <module name="eventorg-event-service" />
+        <module name="eventorg-apigateway-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="BudgetManagement" target="17" />
+      <module name="ClientService" target="21" />
       <module name="eventManagement" target="17" />
+      <module name="feedback-service" target="21" />
       <module name="guestManagement" target="17" />
       <module name="ReportService" target="17" />
       <module name="security-service" target="17" />
@@ -32,15 +32,15 @@
       <module name="BudgetManagement" options="-parameters" />
       <module name="ClientService" options="-parameters" />
       <module name="ReportService" options="-parameters" />
-      <module name="api-gateway-server" options="-parameters" />
-      <module name="eureka-server" options="-parameters" />
-      <module name="event-service" options="-parameters" />
+      <module name="eventorg-apigateway-service" options="-parameters" />
+      <module name="eventorg-eureka-service" options="-parameters" />
+      <module name="eventorg-event-service" options="-parameters" />
+      <module name="eventorg-guest-service" options="-parameters" />
+      <module name="eventorg-task-service" options="-parameters" />
+      <module name="eventorg-user-service" options="-parameters" />
+      <module name="eventorg-vendor-service" options="-parameters" />
       <module name="feedback-service" options="-parameters" />
-      <module name="guest-service" options="-parameters" />
       <module name="security-service" options="-parameters" />
-      <module name="task-service" options="-parameters" />
-      <module name="user-service" options="-parameters" />
-      <module name="vendor-service" options="-parameters" />
     </option>
   </component>
 </project>

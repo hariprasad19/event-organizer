@@ -11,7 +11,7 @@
 	<groupId>com.eventorganizer</groupId>
 	<artifactId>eventorg-vendor-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>vendor-service</name>
+	<name>eventorg-vendor-service</name>
 	<description>vendor-service</description>
 	<url/>
 	<licenses>

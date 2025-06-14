@@ -8,10 +8,10 @@
 		<version>3.3.5</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.myportfolio.apigateway</groupId>
+	<groupId>com.eventorganizer</groupId>
 	<artifactId>eventorg-apigateway-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>api-gateway-server</name>
+	<name>eventorg-apigateway-service</name>
 	<description>api-gateway-server</description>
 	<url/>
 	<licenses>

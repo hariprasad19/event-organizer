@@ -11,7 +11,7 @@
 	<groupId>com.eventorganizer</groupId>
 	<artifactId>eventorg-event-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>eventManagement</name>
+	<name>eventorg-event-service</name>
 	<description>Event management</description>
 	<url/>
 	<licenses>

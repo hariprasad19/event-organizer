@@ -8,10 +8,10 @@
 		<version>3.3.5</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.UserService</groupId>
+	<groupId>com.eventorganizer</groupId>
 	<artifactId>eventorg-user-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>user-service</name>
+	<name>eventorg-user-service</name>
 	<description>User Service</description>
 	<url/>
 	<licenses>
