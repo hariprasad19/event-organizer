@@ -5,10 +5,6 @@ import com.eventorganizer.ClientService.feignClient.EventFeign;
 import com.eventorganizer.ClientService.feignClient.FeedbackFeign;
 import com.eventorganizer.ClientService.model.Client;
 import com.eventorganizer.ClientService.repository.ClientRepository;
-import com.eventManagement.dto.EventDTO;
-import com.eventManagement.dto.UserDTO;
-import com.eventManagement.feignclient.UserFeign;
-import com.eventManagement.model.Event;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

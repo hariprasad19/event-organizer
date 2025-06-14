@@ -13,3 +13,5 @@ vendor-service(8001)
 user-service(8002)
 guest-service(8004)
 task-service(8003)
+
+feedback_db does not exist

@@ -98,8 +98,8 @@
 			<artifactId>spring-cloud-starter-openfeign</artifactId>
 		</dependency>
         <dependency>
-            <groupId>com.feedbackService</groupId>
-            <artifactId>feedback-service</artifactId>
+            <groupId>com.eventorganizer</groupId>
+            <artifactId>eventorg-feedback-service</artifactId>
             <version>0.0.1-SNAPSHOT</version>
             <scope>compile</scope>
         </dependency>

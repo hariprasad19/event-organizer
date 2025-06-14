@@ -1,6 +1,7 @@
 package com.eventorganizer.ClientService.feignClient;
 
-import com.eventorganizer.feedbackService.dto.EventFeedbackDTO;
+
+import com.eventorganizer.ClientService.dto.EventFeedbackDTO;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

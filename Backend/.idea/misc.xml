@@ -29,6 +29,8 @@
         <option value="$PROJECT_DIR$/eventorg-user-service/pom.xml" />
         <option value="$PROJECT_DIR$/eventorg-vendor-service/pom.xml" />
         <option value="$PROJECT_DIR$/eventorg-apigateway-service/pom.xml" />
+        <option value="$PROJECT_DIR$/eventorg-feedback-service/pom.xml" />
+        <option value="$PROJECT_DIR$/eventorg-client-service/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

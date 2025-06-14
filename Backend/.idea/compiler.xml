@@ -12,34 +12,41 @@
         <module name="eventorg-guest-service" />
         <module name="eventorg-user-service" />
         <module name="eventorg-vendor-service" />
+        <module name="eventorg-client-service" />
+        <module name="eventorg-feedback-service" />
         <module name="eventorg-event-service" />
         <module name="eventorg-apigateway-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="api-gateway-server" target="21" />
       <module name="BudgetManagement" target="17" />
-      <module name="ClientService" target="21" />
+      <module name="eureka-server" target="21" />
+      <module name="event-service" target="21" />
       <module name="eventManagement" target="17" />
-      <module name="feedback-service" target="21" />
+      <module name="guest-service" target="21" />
       <module name="guestManagement" target="17" />
       <module name="ReportService" target="17" />
       <module name="security-service" target="17" />
+      <module name="task-service" target="21" />
+      <module name="user-service" target="21" />
+      <module name="vendor-service" target="21" />
       <module name="vendorandbudget" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="BudgetManagement" options="-parameters" />
-      <module name="ClientService" options="-parameters" />
       <module name="ReportService" options="-parameters" />
       <module name="eventorg-apigateway-service" options="-parameters" />
+      <module name="eventorg-client-service" options="-parameters" />
       <module name="eventorg-eureka-service" options="-parameters" />
       <module name="eventorg-event-service" options="-parameters" />
+      <module name="eventorg-feedback-service" options="-parameters" />
       <module name="eventorg-guest-service" options="-parameters" />
       <module name="eventorg-task-service" options="-parameters" />
       <module name="eventorg-user-service" options="-parameters" />
       <module name="eventorg-vendor-service" options="-parameters" />
-      <module name="feedback-service" options="-parameters" />
       <module name="security-service" options="-parameters" />
     </option>
   </component>
