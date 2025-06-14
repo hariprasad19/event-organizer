@@ -4,9 +4,7 @@ Project Structure:
 3.User
 4.Guest
 5.Task
-----------------
-6.Client
-7.Feedback
+
 
 api-gateway(8888)
 eureka-server(8761)
@@ -15,5 +13,3 @@ vendor-service(8001)
 user-service(8002)
 guest-service(8004)
 task-service(8003)
-client-service(8006)
-feedback-service()
