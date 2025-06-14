@@ -8,10 +8,10 @@
 		<version>3.3.5</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.ClientService</groupId>
-	<artifactId>ClientService</artifactId>
+	<groupId>com.eventorganizer</groupId>
+	<artifactId>eventorg-client-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>ClientService</name>
+	<name>eventorg-client-service</name>
 	<description>Client Service</description>
 	<url/>
 	<licenses>
