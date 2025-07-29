@@ -16,9 +16,6 @@ public interface VendorFeign
     @GetMapping("api/vendors/{id}")
     VendorDTO getVendorById(@PathVariable Long id);
 
-//    @PostMapping("request/vendor/{vendorId}/requests")
-//    public ResponseEntity<List<VendorRequestDTO>> viewRequests(@PathVariable Long vendorId);
-
     @PostMapping("api/vendors/create/{eventId}/request/{vendorId}")
     public VendorRequestDTO createEventRequest(@RequestParam Long eventId, @RequestParam Long vendorId);
 

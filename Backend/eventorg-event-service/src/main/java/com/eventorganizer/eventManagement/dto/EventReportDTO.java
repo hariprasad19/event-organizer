@@ -11,7 +11,5 @@ public class EventReportDTO
     private List<GuestDTO> guestDetails;
     private List<VendorDTO> vendorDetails;
     private List<TaskDTO> taskDetails;
-//    private ClientDTO clientDetails;
-//    private List<FeedbackDTO> feedbackDetails;
 
 }

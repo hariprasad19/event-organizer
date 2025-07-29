@@ -43,11 +43,6 @@ public class EventController
         return eventService.getEventById(id);
     }
 
-//    @PostMapping("/{eventId}/addVendor")
-//    public void addVendorToEvent(@PathVariable Long eventId, @RequestParam Long vendorId) {
-//        eventService.addVendorToEvent(eventId, vendorId);
-//    }
-
     @PutMapping("/{id}")
     public Event updateEvent(@PathVariable Long id, @RequestBody Event updatedEvent) throws EventNotFoundException {
         return eventService.updateEvent(id, updatedEvent);
@@ -85,11 +80,6 @@ public class EventController
     public List<Event> getEventsByUserId(@PathVariable Long userId) {
         return eventService.getEventsByUserId(userId);
     }
-
-//    @PostMapping("/assignEventToClient")
-//    public void assignEventToClient(@RequestParam Long eventId, @RequestParam Long clientId) {
-//        eventService.assignEventToClient(eventId, clientId);
-//    }
 
     @GetMapping("/vendors/{vendorId}")
     public List<Event> getEventsByVendorId(@PathVariable Long vendorId){

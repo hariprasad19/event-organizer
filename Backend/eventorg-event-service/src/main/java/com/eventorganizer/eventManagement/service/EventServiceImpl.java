@@ -52,19 +52,6 @@ public class EventServiceImpl implements EventService {
         return eventRepo.save(savedEvent);
     }
 
-//    @Override
-//    public void addVendorToEvent(Long eventId, Long vendorId) {
-//        // Retrieve the event
-//        Event event = eventRepo.findById(eventId)
-//                .orElseThrow(() -> new EventNotFoundException("Event not found with ID: " + eventId));
-//
-//        // Add the vendor ID to the event's vendor list
-//        if (!event.getVendors().contains(vendorId)) {
-//            event.getVendors().add(vendorId);
-//            eventRepo.save(event);  // Save the updated event
-//        }
-//    }
-
     @Override
     public List<Event> getAllEvents() {
         List<Event> events = eventRepo.findAll();
@@ -141,30 +128,12 @@ public class EventServiceImpl implements EventService {
 
 
         }
-
-        // Update Guest List
-//        if (updatedEvent.getGuests() != null) {
-//            // Validate guest IDs by attempting to retrieve them
-//            for (Long guestId : updatedEvent.getGuests()) {
-//                try {
-//                    guestFeign.getGuestById(guestId);
-//                } catch (Exception e) {
-//                    throw new RuntimeException("Guest with ID: " + guestId + " not found");
-//                }
-//            }
-//
-//            // Create a new list with the updated guests
-//            existingEvent.setGuests(new ArrayList<>(updatedEvent.getGuests()));
-//        }
-
         // Recalculate actual expense
         existingEvent.setActualExpense(fetchTotalValue(existingEvent));
 
         // Save and return the updated event
         return eventRepo.save(existingEvent);
     }
-
-
 
     @Override
     public List<Event> searchEventsByName(String name) throws EventNotFoundException {

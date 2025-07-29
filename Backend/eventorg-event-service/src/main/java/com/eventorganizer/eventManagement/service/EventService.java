@@ -16,16 +16,12 @@ public interface EventService
     public Event getEventById(Long id) throws EventNotFoundException;
     public void deleteEvent(Long id);
     public Event updateEvent(Long id, Event event) throws EventNotFoundException;
-
     public List<Event> searchEventsByName(String name) throws EventNotFoundException;
     public List<Event> searchEventsByDateRange(LocalDate startDate, LocalDate endDate) throws EventNotFoundException;
     public List<GuestDTO> getAllGuestsByEventId(Long id);
     public List<VendorDTO> getAllVendorsByEventId(Long id);
     public EventReportDTO getEventReport(Long EventId);
     public List<Event> getEventsByUserId(Long userId);
-//    public void addVendorToEvent(Long eventId, Long vendorId);
-//    public void assignEventToClient(Long eventId, Long clientId);
-
     public List<Event> getEventsByVendorId(Long vendorId);
 
 }

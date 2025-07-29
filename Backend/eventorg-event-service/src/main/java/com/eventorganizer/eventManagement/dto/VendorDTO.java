@@ -9,5 +9,4 @@ public class VendorDTO
     private String vendorCompanyName;
     private String vendorServiceType;
     private double vendorAmount;
-//    private PaymentStatus vendorPaymentStatus;
 }
