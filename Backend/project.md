@@ -4,8 +4,8 @@ Project Structure:
 3.User
 4.Guest
 5.Task
-6.Client
-7.Feedback
+6.Client(Not fully implemented)
+7.Feedback(Not fully implemented)
 
 Ports:
 api-gateway(8888)
@@ -17,5 +17,3 @@ task-service(8003)
 guest-service(8004)
 feedback-service(8005)
 client-service(8006)
-
-feedback_db does not exist
