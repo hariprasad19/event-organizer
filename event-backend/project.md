@@ -17,3 +17,12 @@ task-service(8003)
 guest-service(8004)
 feedback-service(8005)
 client-service(8006)
+
+DBs:
+event-service(event_db)
+vendor-service(vendor_db)
+user-service(users_db)
+task-service(task_db)
+guest-service(guest_db)
+feedback-service(feedback_db)
+client-service(client_db)
