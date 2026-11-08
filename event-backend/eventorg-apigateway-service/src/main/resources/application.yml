@@ -1,6 +1,18 @@
 spring:
+  application:
+    name: eventorg-apigateway-service
+  datasource:
+    url: jdbc:postgresql://localhost:5432/users_db
+    username: postgres
+    password: postgres
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
   cloud:
     gateway:
+      globalcors:
+        add-to-simple-url-handler-mapping: true
       mvc:
         default-filters:
           - ResponseHeader=Access-Control-Allow-Origin Access-Control-Allow-Credentials, RETAIN_UNIQUE
@@ -9,33 +21,26 @@ spring:
               '[/**]':
                 allowed-origins: "*"
                 allowed-methods: "*"
-        #                allowed-headers: "*"
         routes:
           - id: eventorg-event-service
             uri: lb://eventorg-event-service
             predicates:
               - Path=/api/events/**
-
-
           - id: eventorg-guest-service
             uri: lb://eventorg-guest-service
             predicates:
               - Path=/api/guest/**
-
           - id: eventorg-vendor-service
             uri: lb://eventorg-vendor-service
             predicates:
               - Path=/api/vendors/**
-
-#          - id: user-service
-#            uri: lb://user-service
-#            predicates:
-#              - Path=/api/users/**
-
           - id: eventorg-task-service
             uri: lb://eventorg-task-service
             predicates:
               - Path=/api/task/**
+
+server:
+  port: 8888
 
 eureka:
   client:

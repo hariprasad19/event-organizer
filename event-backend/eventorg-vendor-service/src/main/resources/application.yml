@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: eventorg-vendor-service
+  datasource:
+    url: jdbc:postgresql://localhost:5432/vendor_db
+    username: postgres
+    password: postgres
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+server:
+  port: 8001
